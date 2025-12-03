@@ -2,6 +2,7 @@ package com.personalplayground.studyplanner;
 
 import java.time.LocalDateTime;
 
+
 public class StudyTask {
     private final String title;
     private final int estimatedMinutes;
@@ -9,6 +10,18 @@ public class StudyTask {
     private boolean completed;
 
     public StudyTask(String title, int estimatedMinutes, LocalDateTime dueAt) {
+        if (title == null || title.isBlank()) {
+            throw new IllegalArgumentException("Task title cannot be empty.");
+        }
+
+        if (estimatedMinutes <= 0) {
+            throw new IllegalArgumentException("estimatedMinutes must be > 0.");
+        }
+
+        if (dueAt == null) {
+            throw new IllegalArgumentException("dueAt cannot be null.");
+        }
+
         this.title = title;
         this.estimatedMinutes = estimatedMinutes;
         this.dueAt = dueAt;
