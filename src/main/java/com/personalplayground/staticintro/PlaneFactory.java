@@ -1,4 +1,4 @@
-package com.personalplayground.staticmasteryproject.staticintro;
+package com.personalplayground.staticintro;
 
 public final class PlaneFactory {
 

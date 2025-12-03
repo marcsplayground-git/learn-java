@@ -1,9 +1,9 @@
-package com.personalplayground.staticmasteryproject.staticintro;
+package com.personalplayground.staticintro;
 
 // STATIC IMPORTS
-import static com.personalplayground.staticmasteryproject.staticintro.Plane.getCompanyName;
-import static com.personalplayground.staticmasteryproject.staticintro.Plane.getMaxPassengersPerPlane;
-import static com.personalplayground.staticmasteryproject.staticintro.Plane.resetTotalPassengers;
+import static com.personalplayground.staticintro.Plane.getCompanyName;
+import static com.personalplayground.staticintro.Plane.getMaxPassengersPerPlane;
+import static com.personalplayground.staticintro.Plane.resetTotalPassengers;
 
 public class StaticImportDemo {
 

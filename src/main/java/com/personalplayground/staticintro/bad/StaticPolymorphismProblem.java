@@ -1,4 +1,4 @@
-package com.personalplayground.staticmasteryproject.staticintro.bad;
+package com.personalplayground.staticintro.bad;
 
 class Animal {
     public static void speak() {

@@ -1,4 +1,4 @@
-package com.personalplayground.staticmasteryproject.staticintro.bad;
+package com.personalplayground.staticintro.bad;
 
 public class BadStaticInitDemo {
     public static void main(String[] args) {
